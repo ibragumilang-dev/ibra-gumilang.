@@ -1,0 +1,31 @@
+kelas Sekolah:
+      lulus
+  
+  kelas Siswa:
+      lulus
+  
+  Kepala_sekolah = Sekolah()
+  Orang tua = Siswa()
+  
+  mencetak(jenis(Kepala_sekolah))
+  mencetak(jenis(Orang tua))
+  
+  Pak_mamat = Sekolah()
+  Siti = Siswa()
+  
+  mencetak(jenis(Pak_Asep))
+  mencetak(jenis(cris))
+  
+  Kepala_sekolah = Sekolah()
+  Kepala_sekolah.umur = 50
+  Kepala_sekolah.nama = "Pak_asep"
+  
+  mencetak(Kepala_sekolah.umur)
+  mencetak(Kepala_sekolah.nama)
+  
+  Orang tua = Siswa()
+  Orang tua.umur = 45
+  Orang tua.nama = "cris"
+
+mencetak(Orang tua.umur)
+mencetak(Orang tua.nama)
